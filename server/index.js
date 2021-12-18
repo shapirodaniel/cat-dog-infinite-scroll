@@ -13,7 +13,7 @@ app.use("/dogs", dogRouter);
 app.use("/cats", catRouter);
 
 app.get("/", (req, res) => {
-  res.status(200).render("index.ejs");
+  res.status(200).render("index");
 });
 
 app.listen(PORT, () => {
